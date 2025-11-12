@@ -1,0 +1,16 @@
+node_modules
+playwright-report
+test-results
+.git
+.vscode
+.idea
+.DS_Store
+**/node_modules
+**/playwright-report
+dist
+coverage
+\.env
+\.env.*
+Thumbs.db
+npm-debug.log
+Dockerfile

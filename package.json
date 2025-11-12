@@ -1,0 +1,19 @@
+{
+  "name": "playwright-poc-amazon",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "pw-test --debug",
+    "install:drivers": "playwright install --with-deps",
+    "mcp:run-login": "cd mcp-server; node server.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@executeautomation/playwright-mcp-server": "^1.0.6"
+  }
+}
