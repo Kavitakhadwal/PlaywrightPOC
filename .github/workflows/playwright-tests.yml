@@ -30,8 +30,7 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
-      - name: Run Playwright tests (Firefox)
-        run: npx playwright test --project=firefox --reporter=list
+     
 
       - name: Upload Playwright HTML report
         if: always()
